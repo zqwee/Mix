@@ -14,7 +14,7 @@ async def maker(client: Client, message: Message):
         photo=f"https://telegra.ph/file/41a777f089288f7ad2571.jpg",
         caption=f"""**- اوامر التشغيل اتبع مايلي
         
- [— — — — — — — — — —](https://graph.org/file/7f1402824c0c70c91fd81.jpg)
+ [— — — — — — — — — —](https://telegra.ph/file/41a777f089288f7ad2571.jpg)
 ◇︰ تشغيل أو شغل : لبدء تشغيل الاغاني .
 
 ◇︰ بينج : لقياس سرعة النت في البوت .
@@ -33,13 +33,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/w_4_m"),
+                        "‹ السورس ›", url=f"https://t.me/Source_Ze"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/p_t_i"),
+                        "‹ الدعم ›", url=f"https://t.me/zesupport"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/p_t_i"),
+                        "‹ المطور ›", url=f"https://t.me/D_S_I"),
                 ],       
             ]
         ),
@@ -51,7 +51,7 @@ async def maker(client: Client, message: Message):
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/7f1402824c0c70c91fd81.jpg",
+        photo=f"https://telegra.ph/file/41a777f089288f7ad2571.jpg",
         caption=f"""**
 - اوامر التفعيل اتبع مايلي
 
@@ -76,13 +76,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/w_4_m"),
+                        "‹ السورس ›", url=f"https://t.me/Source_Ze"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/p_t_i"),
+                        "‹ الدعم ›", url=f"https://t.me/zesupport"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/p_t_i"),
+                        "‹ المطور ›", url=f"https://t.me/D_S_I"),
                 ],       
             ]
         ),
@@ -94,7 +94,7 @@ async def maker(client: Client, message: Message):
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/7f1402824c0c70c91fd81.jpg",
+        photo=f"https://telegra.ph/file/41a777f089288f7ad2571.jpg",
         caption=f"""**
 -  اوامر التسليه
  — — — — — — — — — — 
@@ -126,13 +126,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/w_4_m"),
+                        "‹ السورس ›", url=f"https://t.me/Source_Ze"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/p_t_i"),
+                        "‹ الدعم ›", url=f"https://t.me/zesupport"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/p_t_i"),
+                        "‹ المطور ›", url=f"https://t.me/D_S_I"),
                 ],       
             ]
         ),

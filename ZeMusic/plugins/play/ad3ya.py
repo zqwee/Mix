@@ -1,3 +1,6 @@
+#Source ZE > @UI_XB
+#الملف ڪتابة الهيبه مودي >͢ @UP_UO
+#تنشر الملف اذڪر الحقوق
 
 import asyncio
 from datetime import datetime, timedelta
@@ -222,3 +225,6 @@ async def ad3iya():
     
      
 asyncio.create_task(ad3iya())
+
+
+# الملف بحقوق سورس زد إي @UI_XB

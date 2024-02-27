@@ -192,3 +192,5 @@ async def game_handler(client: Client, message: Message):
             await message.reply("تم انتهاء الأسئلة. شكرًا للمشاركة.")
     else:
         await message.reply("إجابة خاطئة. حاول مرة أخرى.")
+
+# Additional code for starting the game or triggering the first question can be added as needed

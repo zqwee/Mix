@@ -8,11 +8,11 @@ from ZeMusic import app
 async def arbic(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f"""**[مرحبا بك] [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ! \n
-※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/w_4_m) \n
-※[لاظهار كيبورد الاعضاء اضغط](https://t.me/w_4_m) \n
-※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/w_4_m)\n [. 𝗦𝗼𝘂𝗿𝗰𝗲 𝗺𝗶𝘅 .](https://t.me/p_t_i)
-※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/w_4_m) """,
+        f""" 🔱**[مرحبا بك] [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ! \n
+※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/Source_Ze) \n
+※[لاظهار كيبورد الاعضاء اضغط](https://t.me/Source_Ze) /ZE \n
+※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/Source_Ze)\n [🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱](https://t.me/Source_Ze)
+※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/Source_Ze) """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -21,7 +21,7 @@ async def arbic(_, query: CallbackQuery):
                         url=f"https://t.me/{app.username}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/p_t_i"),
+                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/ZeSupport"),
                 
 InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="ze"),
                 ],
@@ -30,12 +30,12 @@ InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/w_4_m"
+                        "‹ السورس ›", url=f"https://t.me/Source_Ze"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ المطور ›", url="https://t.me/p_t_i"
+                        "‹ المطور ›", url="https://t.me/D_S_I"
                     )
                 ],
             ]
@@ -47,7 +47,7 @@ InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="
 async def english(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f" [※A Telegram Music Bot Based Mongodb](https://t.me/w_4_m) \n ※[Add Me To Ur Chat For and Help and And Support Click On Buttons](https://t.me/w_4_m) \n ※[These Features AI Based](https://t.me/w_4_m)",
+        f" [※A Telegram Music Bot Based Mongodb](https://t.me/Source_Ze) \n ※[Add Me To Ur Chat For and Help and And Support Click On Buttons](https://t.me/Source_Ze) \n ※[These Features AI Based](https://t.me/Source_Ze)",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -58,15 +58,15 @@ async def english(_, query: CallbackQuery):
                 ],
                 [InlineKeyboardButton(" Basic Guide", callback_data="cbhowtouse"),
                 
-InlineKeyboardButton(" member keyboard ", callback_data="w_4_m"),
+InlineKeyboardButton(" member keyboard ", callback_data="Source_Ze"),
                 ],
                 [                
                     InlineKeyboardButton(" Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton(" Donate", url=f"https://t.me/w_4_m"),
+                    InlineKeyboardButton(" Donate", url=f"https://t.me/Source_Ze"),
                 ],
                 [
                     InlineKeyboardButton(
-                        " DEVELOPER ", url="https://t.me/p_t_i"
+                        " DEVELOPER ", url="https://t.me/D_S_I"
                     )
                 ],
             ]
@@ -93,12 +93,12 @@ async def cbguides(_, query: CallbackQuery):
         ),
     )
 
-@Client.on_callback_query(filters.regex("w_4_m"))
+@Client.on_callback_query(filters.regex("Source_Ze"))
 async def cbguides(_, query: CallbackQuery):
     await query.answer("user guide")
     await query.edit_message_text(
         f"""🔱 **※Welcome \n
-※Show members keyboard Send /MiX \n\n
+※Show members keyboard Send /MODY \n\n
 ※Show entertainment keyboard send /ZE**
 """,
         reply_markup=InlineKeyboardMarkup(
@@ -113,7 +113,7 @@ async def cbcmds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🥹♥ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 » **press the button below to read the explanation and see the list of available commands !**
-√ __Powered by . 𝗦𝗼𝘂𝗿𝗰𝗲 𝗺𝗶𝘅 . """,
+√ __Powered by 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🐉 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [

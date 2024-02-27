@@ -1,4 +1,5 @@
 
+##|𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮☬, [23/12/44 03:32 ص]
 import asyncio
 import random
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -7,6 +8,9 @@ from ZeMusic import app
 from strings.filters import command
 from config import OWNER_ID
 from pyrogram.enums import ParseMode, ChatMemberStatus
+
+
+##|𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮☬, [23/12/44 03:32 ص]
 
 
 iddof = []
@@ -33,7 +37,7 @@ async def iddlock(client:Client, message:Message):
         return await message.reply_text(f"**تم قفل الالعاب بنجاح\n\nبواسطة {rotba} ←{message.from_user.mention}**")
     else:
         return await message.reply_text(f"**يا {message.from_user.mention} انت لست مشرفا هنا**")
-        
+##|𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮☬, [23/12/44 03:32 ص]
 @app.on_message(
     command(["فتح العاب","تفعيل العاب"])
     & filters.group

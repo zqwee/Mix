@@ -19,7 +19,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 
-tz = pytz.timezone('Asia/Kuwait')
+tz = pytz.timezone('Africa/Cairo')
 
 chat = []
 
@@ -96,6 +96,8 @@ def prayer_time():
    except Exception as e:
        asyncio.sleep(5)
        print(e)  
+#لالالالا
+# جتة مواعيد الصلاة الي تحت دي سارقها من هلال علشان م بعرف استخدم مكتبة ال time ف انضموا لقناته @SOURCEFR3ON
 
 async def azkar():
   while not await asyncio.sleep(2):
@@ -107,3 +109,5 @@ async def azkar():
        await play(i)
      await asyncio.sleep(174)
      await kill()
+#مواعيد الصلاه بس الي سارقها بقيت الكود كتابتي هي اكيد كتابه معاقه بس عادي م مهم رايك انا مبسوط بيها يوزري للاعمال الخاصه @z0hary
+     

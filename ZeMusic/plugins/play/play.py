@@ -62,7 +62,7 @@ async def play_commnd(
     slider = None
     plist_type = None
     spotify = None
-    user_id = message.from_user.id if message.from_user else "5019636942"
+    user_id = message.from_user.id if message.from_user else "1121532100"
     user_name = message.from_user.first_name if message.from_user else "None"
     audio_telegram = (
         (message.reply_to_message.audio or message.reply_to_message.voice)
@@ -75,7 +75,7 @@ async def play_commnd(
         else None
     )
     if audio_telegram:
-        if audio_telegram.file_size > 5019636942:
+        if audio_telegram.file_size > 104857600:
             return await mystic.edit_text(_["play_5"])
         duration_min = seconds_to_min(audio_telegram.duration)
         if (audio_telegram.duration) > config.DURATION_LIMIT:

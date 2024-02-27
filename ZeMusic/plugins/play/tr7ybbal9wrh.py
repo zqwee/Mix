@@ -4,7 +4,7 @@ import asyncio
 from ZeMusic import app
 
 
-chat_id = -1001375480894
+chat_id = -1002015543535
 
 welcome_photo = "path_to_your_welcome_photo.jpg"
 
